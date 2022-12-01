@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(236, 230, 230);
+    margin-left: 400px;
+}
+@font-face {
+	font-family: 'Sunday';
+	src: url('fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+h1{
+    font-family: 'Sunday', sans-serif;
+    color: rgb(78, 13, 13);
+}
+
+h1,p,ul,ol{
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 2px 2px 1px white;
+}
